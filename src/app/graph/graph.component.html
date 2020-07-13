@@ -1,3 +1,11 @@
-<p>
-  graph works!
-</p>
+<div style="display: block; width: 80%; margin-left: auto;
+margin-right: auto;">{{chartHeight}}
+  <canvas baseChart width="250" [attr.height]="chartHeight"
+    [datasets]="lineChartData"
+    [labels]="lineChartLabels"
+    [options]="lineChartOptions"
+    [colors]="lineChartColors"
+    [chartType]="lineChartType"
+    [plugins]="lineChartPlugins">
+  </canvas>
+</div>

@@ -1,3 +1,10 @@
+#header{
+    background-color: coral;
+    color:white;
+    text-align: left;
+    font-size: 0.8em;
+}
+
 .votearrow{
     width:      10px;
     height:     10px;
@@ -12,10 +19,7 @@
     margin-right: auto;
   }
 
-  /* table {
-    border-collapse: separate;
-    border-spacing: 0 1em;
-} */
+
 
 tbody tr:nth-child(odd){
     background-color: rgb(221, 220, 220);
@@ -32,5 +36,7 @@ tbody tr:nth-child(odd){
     color: gray;
 }
 #prevNext{
-    float: right; margin-right: 8%;
+    float: right;
+    margin-right: 8%;
+    color: coral;
 }

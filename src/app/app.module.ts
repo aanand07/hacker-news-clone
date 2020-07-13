@@ -5,6 +5,7 @@ import { AppComponent } from './app.component';
 import { NewsComponent } from './news/news.component';
 import { GraphComponent } from './graph/graph.component';
 import { HttpClientModule } from '@angular/common/http';
+import { ChartsModule } from 'ng2-charts';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { HttpClientModule } from '@angular/common/http';
   ],
   imports: [
     BrowserModule.withServerTransition({ appId: 'serverApp' }),
-    HttpClientModule
+    HttpClientModule,
+    ChartsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
