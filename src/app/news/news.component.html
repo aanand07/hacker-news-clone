@@ -1,0 +1,35 @@
+<!-- <center> -->
+  <table id="hnmain" border="0" cellpadding="0" cellspacing="0" width="85%" class="center">
+    <thead >
+      <tr>
+        <th>Comments</th>
+        <th>Vote Cunt</th>
+        <th>Upvote</th>
+        <th>News Details</th>
+      </tr>
+    </thead>
+      
+      <tr id="pagespace" title="" style="height:10px"></tr>
+      <tbody>
+     <tr *ngFor="let n of newsData">
+       <td class="pad-left-10" style="width: 5%;">{{n.comments}}</td>
+       <td style="width: 5%;">{{n.votes}}</td>
+       <td style="width: 5%;"><div class="votearrow" title="upvote"></div></td>
+       <td style="width: 85%;">{{n.details}}
+        <span class="font-75 color-gray">({{n.url}}) by </span>
+        <span class="font-75">{{n.author}} </span>
+        <span class="font-75 color-gray">{{n.created}} </span>
+        <span class="font-75" (click)="hideElement(n.id)"> [ hide ]</span>
+      </td>
+     </tr>
+    </tbody>
+  </table>
+     <div id="prevNext">
+       <span *ngIf="page!==0" (click)="page=page-1;getData(page)">
+        Previous |</span>
+        <span (click)="page=page+1;getData(page)"> Next
+       </span>
+     </div>
+      <!-- <hr style="background-color: #ff6600; height: 2px;"> -->
+      
+   

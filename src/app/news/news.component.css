@@ -1,0 +1,36 @@
+.votearrow{
+    width:      10px;
+    height:     10px;
+    border:     0px;
+    margin:     3px 2px 6px;
+    background: url("https://news.ycombinator.com/grayarrow.gif")
+    no-repeat;
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  /* table {
+    border-collapse: separate;
+    border-spacing: 0 1em;
+} */
+
+tbody tr:nth-child(odd){
+    background-color: rgb(221, 220, 220);
+}
+.pad-left-10{
+    padding-left: 10px;
+}
+
+.font-75{
+    font-size: .75em;
+}
+
+.color-gray{
+    color: gray;
+}
+#prevNext{
+    float: right; margin-right: 8%;
+}
