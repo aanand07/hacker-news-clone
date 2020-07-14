@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1594701346552,
+  "timestamp": 1594702582423,
   "index": "/hacker-news-clone/index.html",
   "assetGroups": [
     {
@@ -69,7 +69,7 @@
     "/hacker-news-clone/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
     "/hacker-news-clone/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
     "/hacker-news-clone/favicon.ico": "84161b857f5c547e3699ddfbffc6d8d737542e01",
-    "/hacker-news-clone/index.html": "ffb1f6c93bd22a293c87c307458a2257b52db3ce",
+    "/hacker-news-clone/index.html": "2208b689654a3adfa8b4fa79d6b9097dd1a05aa9",
     "/hacker-news-clone/main-es2015.a821dcb0d325f1edd378.js": "cc58c2252db2ce32b5609cf84f169d84d9c7db57",
     "/hacker-news-clone/main-es5.a821dcb0d325f1edd378.js": "bda5761bd24c1b26c869add47aa8b31f48a73f99",
     "/hacker-news-clone/manifest.webmanifest": "d19c977b8a08d6fb8e46b8e230bf53e45921c771",
