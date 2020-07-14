@@ -1,7 +1,7 @@
 {
   "configVersion": 1,
-  "timestamp": 1594695997985,
-  "index": "/hn-clone/index.html",
+  "timestamp": 1594701005808,
+  "index": "https://aanand07.github.io/hacker-news-clone/index.html",
   "assetGroups": [
     {
       "name": "app",
@@ -11,16 +11,16 @@
         "ignoreVary": true
       },
       "urls": [
-        "/hn-clone/favicon.ico",
-        "/hn-clone/index.html",
-        "/hn-clone/main-es2015.a821dcb0d325f1edd378.js",
-        "/hn-clone/main-es5.a821dcb0d325f1edd378.js",
-        "/hn-clone/manifest.webmanifest",
-        "/hn-clone/polyfills-es2015.bd3108b6343cfc971498.js",
-        "/hn-clone/polyfills-es5.4de4e51b3d5b1db8c595.js",
-        "/hn-clone/runtime-es2015.409e6590615fb48d139f.js",
-        "/hn-clone/runtime-es5.409e6590615fb48d139f.js",
-        "/hn-clone/styles.3ff695c00d717f2d2a11.css"
+        "https://aanand07.github.io/hacker-news-clone/favicon.ico",
+        "https://aanand07.github.io/hacker-news-clone/index.html",
+        "https://aanand07.github.io/hacker-news-clone/main-es2015.a821dcb0d325f1edd378.js",
+        "https://aanand07.github.io/hacker-news-clone/main-es5.a821dcb0d325f1edd378.js",
+        "https://aanand07.github.io/hacker-news-clone/manifest.webmanifest",
+        "https://aanand07.github.io/hacker-news-clone/polyfills-es2015.bd3108b6343cfc971498.js",
+        "https://aanand07.github.io/hacker-news-clone/polyfills-es5.4de4e51b3d5b1db8c595.js",
+        "https://aanand07.github.io/hacker-news-clone/runtime-es2015.409e6590615fb48d139f.js",
+        "https://aanand07.github.io/hacker-news-clone/runtime-es5.409e6590615fb48d139f.js",
+        "https://aanand07.github.io/hacker-news-clone/styles.3ff695c00d717f2d2a11.css"
       ],
       "patterns": []
     },
@@ -32,14 +32,14 @@
         "ignoreVary": true
       },
       "urls": [
-        "/hn-clone/assets/icons/icon-128x128.png",
-        "/hn-clone/assets/icons/icon-144x144.png",
-        "/hn-clone/assets/icons/icon-152x152.png",
-        "/hn-clone/assets/icons/icon-192x192.png",
-        "/hn-clone/assets/icons/icon-384x384.png",
-        "/hn-clone/assets/icons/icon-512x512.png",
-        "/hn-clone/assets/icons/icon-72x72.png",
-        "/hn-clone/assets/icons/icon-96x96.png"
+        "https://aanand07.github.io/hacker-news-clone/assets/icons/icon-128x128.png",
+        "https://aanand07.github.io/hacker-news-clone/assets/icons/icon-144x144.png",
+        "https://aanand07.github.io/hacker-news-clone/assets/icons/icon-152x152.png",
+        "https://aanand07.github.io/hacker-news-clone/assets/icons/icon-192x192.png",
+        "https://aanand07.github.io/hacker-news-clone/assets/icons/icon-384x384.png",
+        "https://aanand07.github.io/hacker-news-clone/assets/icons/icon-512x512.png",
+        "https://aanand07.github.io/hacker-news-clone/assets/icons/icon-72x72.png",
+        "https://aanand07.github.io/hacker-news-clone/assets/icons/icon-96x96.png"
       ],
       "patterns": []
     }
@@ -60,24 +60,24 @@
     }
   ],
   "hashTable": {
-    "/hn-clone/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
-    "/hn-clone/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
-    "/hn-clone/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
-    "/hn-clone/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
-    "/hn-clone/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
-    "/hn-clone/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
-    "/hn-clone/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
-    "/hn-clone/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
-    "/hn-clone/favicon.ico": "84161b857f5c547e3699ddfbffc6d8d737542e01",
-    "/hn-clone/index.html": "c85eba926bac549db4ab1fee57953002588cd699",
-    "/hn-clone/main-es2015.a821dcb0d325f1edd378.js": "cc58c2252db2ce32b5609cf84f169d84d9c7db57",
-    "/hn-clone/main-es5.a821dcb0d325f1edd378.js": "bda5761bd24c1b26c869add47aa8b31f48a73f99",
-    "/hn-clone/manifest.webmanifest": "d19c977b8a08d6fb8e46b8e230bf53e45921c771",
-    "/hn-clone/polyfills-es2015.bd3108b6343cfc971498.js": "72ad4ccc0a3916ae4598199447cdeadd6d380570",
-    "/hn-clone/polyfills-es5.4de4e51b3d5b1db8c595.js": "0aee34bd067d5a6a0a61ef2245421f87998eda1b",
-    "/hn-clone/runtime-es2015.409e6590615fb48d139f.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
-    "/hn-clone/runtime-es5.409e6590615fb48d139f.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
-    "/hn-clone/styles.3ff695c00d717f2d2a11.css": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+    "https://aanand07.github.io/hacker-news-clone/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
+    "https://aanand07.github.io/hacker-news-clone/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
+    "https://aanand07.github.io/hacker-news-clone/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
+    "https://aanand07.github.io/hacker-news-clone/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
+    "https://aanand07.github.io/hacker-news-clone/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "https://aanand07.github.io/hacker-news-clone/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "https://aanand07.github.io/hacker-news-clone/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
+    "https://aanand07.github.io/hacker-news-clone/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
+    "https://aanand07.github.io/hacker-news-clone/favicon.ico": "84161b857f5c547e3699ddfbffc6d8d737542e01",
+    "https://aanand07.github.io/hacker-news-clone/index.html": "6ee2cfc501667d8ca2e41903ccad5824c5fc0754",
+    "https://aanand07.github.io/hacker-news-clone/main-es2015.a821dcb0d325f1edd378.js": "cc58c2252db2ce32b5609cf84f169d84d9c7db57",
+    "https://aanand07.github.io/hacker-news-clone/main-es5.a821dcb0d325f1edd378.js": "bda5761bd24c1b26c869add47aa8b31f48a73f99",
+    "https://aanand07.github.io/hacker-news-clone/manifest.webmanifest": "d19c977b8a08d6fb8e46b8e230bf53e45921c771",
+    "https://aanand07.github.io/hacker-news-clone/polyfills-es2015.bd3108b6343cfc971498.js": "72ad4ccc0a3916ae4598199447cdeadd6d380570",
+    "https://aanand07.github.io/hacker-news-clone/polyfills-es5.4de4e51b3d5b1db8c595.js": "0aee34bd067d5a6a0a61ef2245421f87998eda1b",
+    "https://aanand07.github.io/hacker-news-clone/runtime-es2015.409e6590615fb48d139f.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
+    "https://aanand07.github.io/hacker-news-clone/runtime-es5.409e6590615fb48d139f.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
+    "https://aanand07.github.io/hacker-news-clone/styles.3ff695c00d717f2d2a11.css": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
   },
   "navigationUrls": [
     {
