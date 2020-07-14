@@ -1,4 +1,4 @@
-import { Component, OnInit, Inject, PLATFORM_ID, ChangeDetectorRef } from '@angular/core';
+import { Component, OnInit, Inject, PLATFORM_ID } from '@angular/core';
 import { FetchAlgoliaService } from '../fetch-algolia.service';
 import { isPlatformBrowser } from '@angular/common';
 
@@ -11,8 +11,7 @@ export class NewsComponent implements OnInit {
   newsData: News[] = [];
   page = 0;
 
-  constructor(private fetchAlgolia: FetchAlgoliaService, @Inject(PLATFORM_ID) private platformId: any,
-              private cd: ChangeDetectorRef) { }
+  constructor(private fetchAlgolia: FetchAlgoliaService, @Inject(PLATFORM_ID) private platformId: any) { }
 
   ngOnInit() {
     this.getData();
@@ -26,11 +25,10 @@ export class NewsComponent implements OnInit {
           this.newsData.push({
             comments: ele.num_comments ? ele.num_comments : 0, votes: ele.points ? ele.points : 0,
             details: ele.title, url: ele.url ? (new URL(ele.url)).hostname : '', author: ele.author,
-            created: this.formatDate('2017-12-14T18:13:35.000Z'), id: ele.objectID
+            created: this.formatDate(ele.created_at), id: ele.objectID
           });
         }
       });
-      console.log(this.newsData);
       this.updateFromStorage();
     });
   }
@@ -68,7 +66,6 @@ export class NewsComponent implements OnInit {
     const newsObj = this.newsData.find(ele => ele.id === id);
     newsObj.votes++;
     this.newsData = this.newsData.concat([]);
-    this.cd.detectChanges();
     if (isPlatformBrowser(this.platformId)) {
       const changedVotes = localStorage.getItem('objWithVotesChange') ? JSON.parse(localStorage.getItem('objWithVotesChange')) : {};
       changedVotes[id] = newsObj.votes;
@@ -79,11 +76,11 @@ export class NewsComponent implements OnInit {
 }
 
 interface News {
-  comments: number; // num_comments
-  votes: number; // points
-  details: string; // title
-  url: string; // url
-  author: string; // . author
-  created: string; // created_at
+  comments: number;
+  votes: number;
+  details: string;
+  url: string;
+  author: string;
+  created: string;
   id: number;
 }

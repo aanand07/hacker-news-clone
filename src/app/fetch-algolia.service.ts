@@ -9,6 +9,6 @@ export class FetchAlgoliaService {
   constructor(private http: HttpClient) { }
 
   getData(page = 0) {
-    return this.http.get(`https://hn.algolia.com/api/v1/search?page=${page}`);
+    return this.http.get(`${this.url}${page}`);
   }
 }

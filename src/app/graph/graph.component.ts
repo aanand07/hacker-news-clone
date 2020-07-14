@@ -10,8 +10,8 @@ import { Color } from 'ng2-charts';
 
 
 export class GraphComponent implements OnInit, OnChanges {
-  @Input() newsData;
-  chartHeight = '50';
+  @Input() newsData = [];
+  chartHeight = typeof window !== 'undefined' && window.innerWidth < 768 ? '150' : '50';
   lineChartData = [{ data: [], label: 'Id vs Votes' }];
   lineChartLabels = [];
   lineChartOptions: ChartOptions = {
@@ -29,11 +29,15 @@ export class GraphComponent implements OnInit, OnChanges {
   constructor() { }
 
   @HostListener('window:resize') onResize() {
-    this.chartHeight = window.innerWidth < 400 ? '150' : '50';
-    this.assignVal();
+    if (window.innerWidth < 768) {
+      this.lineChartOptions.responsive = true;
+      this.chartHeight = '150';
+    } else {
+      this.lineChartOptions.responsive = false;
+      this.chartHeight = '50';
+    }
   }
-  ngOnChanges(changes) {
-    console.log(changes);
+  ngOnChanges() {
     this.assignVal();
   }
   ngOnInit() {

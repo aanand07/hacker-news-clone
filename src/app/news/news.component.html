@@ -11,12 +11,12 @@
 
   <tbody>
     <tr *ngFor="let n of newsData">
-      <td class="pad-left-10" style="width: 5%;">{{n.comments}}</td>
-      <td style="width: 5%;">{{n.votes}}</td>
-      <td style="width: 5%;">
+      <td class="pad-left-10 width-5">{{n.comments}}</td>
+      <td class="width-5">{{n.votes}}</td>
+      <td class="width-5">
         <div class="votearrow" title="upvote" (click)="upvote(n.id)"></div>
       </td>
-      <td style="width: 85%;">{{n.details}}
+      <td class="width-85">{{n.details}}
         <span class="font-75 color-gray">({{n.url}}) by </span>
         <span class="font-75">{{n.author}} </span>
         <span class="font-75 color-gray">{{n.created}} </span>
@@ -32,13 +32,11 @@
   </span>
 </div>
 <div class="center">
-  <hr style="border: 3px solid coral; clear: both;
-  width: 85%;">
+  <hr class="hr-line">
 </div>
 
 <app-graph *ngIf="newsData.length>0" [newsData]="newsData"></app-graph>
 
 <div class="center">
-  <hr style="border: 3px solid coral; clear: both;
-  width: 85%;">
+  <hr class="hr-line">
 </div>

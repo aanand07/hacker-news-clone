@@ -5,6 +5,19 @@
     font-size: 0.8em;
 }
 
+.width-5{
+    width: 5%;
+}
+
+.width-85{
+    width: 85%;
+}
+
+.hr-line{
+    border: 3px solid coral; clear: both;
+    width: 85%;
+}
+
 .votearrow{
     width:      10px;
     height:     10px;
