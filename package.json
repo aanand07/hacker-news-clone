@@ -9,7 +9,7 @@
     "lint": "ng lint",
     "e2e": "ng e2e",
     "serve:ssr": "node dist/server/main.js",
-    "build:ssr": "ng build --prod && ng run hn-clone:server:production",
+    "build:ssr": "ng build --prod && ng run hn-clone:server:production && npm run serve:ssr",
     "dev:ssr": "ng run hn-clone:serve-ssr",
     "prerender": "ng run hn-clone:prerender"
   },
@@ -33,6 +33,7 @@
     "chart.js": "^2.9.3",
     "core-js": "^3.6.5",
     "express": "^4.15.2",
+    "http-server": "^0.12.3",
     "ng2-charts": "^2.3.2",
     "rxjs": "~6.6.0",
     "tslib": "^2.0.0",
