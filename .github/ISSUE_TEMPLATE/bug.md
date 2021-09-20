@@ -3,7 +3,7 @@ name: Bug report 🐛
 about: Create a bug report for hacker-news-clone.
 labels: 'status: needs triage'
 ---
-
+<!-- this is a test comment -->
 Thank you very much for contributing to hacker-news-clone by creating an issue! ❤️
 Please let us know if this issue is there in the latest release, and is not a duplicate issue.
 
